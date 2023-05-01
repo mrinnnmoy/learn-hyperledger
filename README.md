@@ -50,3 +50,24 @@
     <td>No</td>
   </tr>
 </table>
+
+<p>Hyperledger is an umbrella project of open source blockchain and related tools, started in December 2015, by the Linux Foundation.</p>
+
+<h3>Hyperledger Fabric consists of four major components:</h3>
+<ul>
+    <li>Channel: It is a private communication pathway between two or more members of a hyperledger.
+    </li>
+    <li>MSP: Member Service Provider is a modular component that is used to manage identities on the blockchain network. This provider is used to authenticate clients who want to join the blockchain network.
+    </li>
+    <li>Chaincode: It is a program written in Go, Node JS, or Java that implements a prescribed interface.
+    </li>
+    <li>Access Control List: It is a list of rules that specifies which users or systems are granted or denied access to a particular object or system resource.
+    </li>
+</ul>
+
+<p>Different types of Nodes:</p>
+<ul>
+    <li>Commiting Nodes: Nodes that have all the copies of the ledger.</li>
+    <li>Endorsing Nodes: Nodes that can execute chain code.</li>
+    <li>Ordering Nodes: Nodes that maintain the sequence of transactions.</li>
+</ul>
