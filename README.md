@@ -71,3 +71,16 @@
     <li>Endorsing Nodes: Nodes that can execute chain code.</li>
     <li>Ordering Nodes: Nodes that maintain the sequence of transactions.</li>
 </ul>
+
+<p>Hyperledger Transaction Flow:</p>
+
+<ul>
+    <li>Step 1: Client initiating a transaction.</li>
+    <li>Step 2: Validation of transaction.</li>
+    <li>Step 3: Simulating the transaction.</li>
+    <li>Step 4: Verifying propsal Response.</li>
+    <li>Step 5: Broadcast transaction to the orderer.</li>
+    <li>Step 6: Order transaction and create block.</li>
+    <li>Step 7: Peers validate each transaction in the block.</li>
+    <li>Step 8: Committing to the respective ledger.</li>
+</ul>
