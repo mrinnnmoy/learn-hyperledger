@@ -84,3 +84,21 @@
     <li>Step 7: Peers validate each transaction in the block.</li>
     <li>Step 8: Committing to the respective ledger.</li>
 </ul>
+
+<p>Hyperledger Networks consists of two types:</p>
+<ul>
+  <li>Hyperledger Test Network</li>
+  <li>Hyperledger Enterprise Network</li>
+</ul>
+
+<p>Hyperledger Test Network</p>
+<ul>
+  <li>
+    Ordering Organization
+    <li>Ordering Node</li>
+    <li>Certificate Authority</li>
+  </li>
+</ul>
+
+<p>To setup Hyperledger in your local system use the below guide.</p>
+<a href="./setup-guide.pdf" download>Click here</a>
